@@ -1,0 +1,15 @@
+input{
+    border-style: none;
+    height: 30px;
+}
+
+input:focus{
+    border: 2px solid lightblue;
+}
+
+input:focus-visible{
+    /* border: 2px solid lightblue; */
+    /* outline-color: lightblue;
+    outline-width: 2px; */
+    outline: none ;
+}
